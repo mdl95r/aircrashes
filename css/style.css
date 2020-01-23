@@ -378,3 +378,8 @@ footer {
 .feedback a:hover {
 	color: #4d7284;
 }
+
+.share {
+	position: relative;
+    float: right;
+}
