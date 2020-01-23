@@ -1,2 +1,1 @@
-# mdl95r.github.io
-aircrashes.info
+# aircrashes.info
