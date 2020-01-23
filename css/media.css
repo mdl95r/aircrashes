@@ -1,0 +1,143 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.about-mayday,
+	.news-section {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	.menu-items {
+		justify-content: center;
+	}
+
+	.breadcrumbs {
+    	padding-left: 10px;
+	}
+
+	.wrapper-news__elements {
+    	max-width: 100%;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu-items {
+		justify-content: center;
+	}
+
+	.menu-items li a {
+    	padding-bottom: 18px;
+	}
+
+	img {
+		vertical-align: baseline;
+	}
+
+	.menu-items li a {
+    	font-size: 17px;
+	}
+}
+
+@media only screen and (max-width : 576px) {
+	.nav-menu {
+		box-shadow: none;
+	}
+	
+	.menu-items {
+		justify-content: center;
+	}
+
+	.menu-items li {
+		margin-right: 8px;
+	}
+
+	.menu-items li:last-child {
+		margin-right: 0;
+	}
+
+	.menu-items li a {
+		text-transform: uppercase;
+    	font-size: 16px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-top: 18px;
+    	padding-bottom: 19px;
+	}
+
+	.wrapper-news {
+		display: block;
+	}
+	
+	.category-preview {
+		display: flex;
+    	justify-content: center;
+    	width: auto;
+		margin-bottom: 20px;
+	}
+
+	.category-preview img {
+		margin-right: 0;
+	}
+
+	.wrapper-news h3  {
+		margin-bottom: 20px;
+	}
+	
+	.wrapper-news p  {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+
+	.wrapper-news__elements .read-more {
+		float: none;
+	}
+	
+	.mayday_title {
+		font-size: 20px;
+    	/*text-align: center;*/
+	}
+
+	.about-mayday__paragraph {
+		padding-left: 14px;
+    	padding-right: 14px;
+    	font-size: 15px;
+	}
+
+	.category {
+		text-align: center;
+    	font-size: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.menu-items li a {
+    	font-size: 15px;
+    	text-transform: none;
+	}
+
+	.nav-categiries {
+		display: block;
+	}
+
+	.nav-categiries a {
+		margin-bottom: 10px;
+	}
+
+	.nav-categiries a:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.series-item {
+		padding-left: 10px;
+	}
+}

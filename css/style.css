@@ -1,0 +1,380 @@
+html {
+	box-sizing: border-box;
+}
+
+
+body {
+	min-width: 320px;
+	font-family: 'Roboto', sans-serif, Arial;
+	line-height: 1.5;
+	background-image: url(../img/background13.jpg);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fixed-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.visually-hidden {								/*Код для скрытия заголовков*/
+    position: absolute !important;
+
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.mayday_title {
+	color: #757575;
+	font-weight: 400;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+.category {
+	color: #4d7284d1;
+	font-weight: 500;
+	font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.nav-menu {
+    padding: 15px 0 16px;
+	position: fixed;
+	top: 0;
+    width: 100%;
+    z-index: 1;
+	box-shadow: 0px 4px 15px 3px #c5c5c5;
+    background-color: #f1f1f1;
+   	border-bottom: 2px solid #4d7284;
+}
+
+.menu-items {
+	display: flex;
+	display: -ms-flexbox;
+	justify-content: start;
+	-ms-flex-pack: start;
+}
+
+.menu-items a:hover {
+	background: #dadada;
+}   
+
+.menu-items li {
+   margin-right: 40px;
+}
+
+.menu-items li a {
+    padding: 27px 10px 19px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #4d7284;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #c8c8c8;
+}
+
+.menu-items li a:hover {
+	color: #1d1d1d;
+	transition: all .3s;
+}
+
+.about-site {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.news a:hover {
+	color: #4d7284;
+}
+
+.more {
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	width: 218px;
+	color: #4d7284;
+    font-size: 18px;
+    border: 1px solid #4d7284;
+	padding: 10px 20px;
+	border-radius: 24px;
+	background-color: #f1f1f1;
+	font-weight: bold;
+    cursor: pointer;
+}
+
+.more:hover {
+    color: #4d7284;
+    border: 1px solid #4d7284;
+    background: #fff;
+}
+
+footer {
+	background-color: #dedede;
+    padding-top: 35px;
+    border-top: 2px solid #9E9E9E;
+}
+
+.version {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.version a {
+	display: inline;
+	font-weight: bold;
+}
+
+.version a:hover {
+	color: #4d7284;
+}
+
+.wrapper-news {
+	padding: 15px;
+    background-color: #f5f2f2;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -ms-flex-align: center;
+    box-shadow: 0px 4px 15px 3px #c5c5c5ab;
+}
+
+.wrapper-news__elements {
+	max-width: 77%; /*Для IE 10-11*/
+}
+
+.category_item {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.category_item:last-child {
+	margin-bottom: 0;
+}
+
+.category-preview img {
+	width: 200px;
+    margin-right: 20px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.wrapper-news__elements h3 {
+	color: #8c8c8c;
+	margin-bottom: 10px;
+}
+
+.wrapper-news__elements p {
+	margin-bottom: 33px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.read-more {
+	padding: 5px 10px;
+	background-color: #fff;
+	color: #4d7284;
+	border: 1px solid #4d7284;
+	border-radius: 16px;
+	font-weight: 500;
+	display: block;
+    float: right;
+}
+
+.wrapper-news__elements .read-more:hover {
+	color: #fff;
+    transition: all .2s;
+    background: #4d7284bd;
+}
+
+.wrapper-news__elements h3 a {
+	color: #4d7284;
+}
+
+.wrapper-news__elements h3 a:hover {
+	color: #6b6a6a;
+}
+
+.about-section {
+	margin-top: 80px;
+    padding: 0 10px 0;
+}
+
+.mayday {
+	margin: 80px 0 30px;
+}
+
+.about-mayday{
+	margin-top: 20px;
+}
+
+.about-mayday__paragraph {
+    margin-bottom: 30px;
+	background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0px 4px 15px 3px #c5c5c5b0;
+    border-left: 4px solid #b5b4b4;
+    line-height: 1.5;
+}
+
+.breadcrumbs {
+    margin-top: 80px;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	padding-right: 15px;
+	line-height: 1.5;
+}
+
+.breadcrumbs a {
+	display: inline-block;
+	color: black;
+	color: #757575;
+}
+
+.breadcrumbs li a:after {
+	position: absolute;
+    margin-left: 7px;
+    color: #757575;
+    content: '/';
+}
+
+.breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+.active-btn {
+	background: #dadada;
+	cursor: default;
+}
+
+.youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.youtube .play {
+    background: url('../img/youtube-play-btn.png') no-repeat 0 90%;
+    background-position: 0 -50px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    position: absolute;
+    height: 50px;
+    width: 69px;
+    transition: none;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.youtube:hover .play {
+    background-position: 0 0;
+}
+
+.series-item {
+	background: #f1f1f1; 
+    box-shadow: 0px 4px 15px 3px #c5c5c5;
+    margin-bottom: 20px;
+    padding: 10px 10px 20px 20px;
+}
+
+.series-item h3 {
+	margin-bottom: 10px;
+	color: #4d7284;
+}
+
+.series-item p {
+	margin-bottom: 20px;
+}
+
+.like-btn {
+	text-align: center;
+}
+
+.prev:before {
+    margin-right: 10px;
+    color: #757575;
+    content: '<';
+}
+
+.next:after {
+    margin-left: 10px;
+    color: #757575;
+    content: '>';
+}
+
+.nav-categiries {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	padding-top: 30px;
+}
+
+.nav-categiries a {
+	display: block;
+	padding: 10px;
+	background-color: #fff;
+	color: #4d7284;
+	border: 1px solid #b0b0e2;
+	border-radius: 16px;
+	font-weight: bold;
+}
+
+.mail {
+	display: block;
+	text-align: left;
+	background: url(../img/email_mail_post_letter_stamp.png) no-repeat;
+	background-size: 20px 20px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.tg {
+	display: block;
+	text-align: left;
+	background: url(../img/Telegram-icon.png) no-repeat;
+	background-size: 20px 20px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.feedback {
+	padding: 0 10px;
+}
+
+.feedback a:hover {
+	color: #4d7284;
+}
